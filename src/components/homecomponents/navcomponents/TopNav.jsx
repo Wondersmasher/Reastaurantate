@@ -1,12 +1,12 @@
-import React, { Fragment } from "react";
-import Button from "../generalcomponents/Button";
-import Logo from "../generalcomponents/Logo";
+import React from "react";
+import Button from "../../generalcomponents/Button";
+import Logo from "../../generalcomponents/Logo";
 import { AiOutlineShoppingCart } from "react-icons/ai";
-import Section from "../generalcomponents/Section";
+import Section from "../../generalcomponents/Section";
 
 const TopNav = () => {
   return (
-    <Section >
+    <Section bg="mid-black">
       <div className="flex-1 flex justify-between items-center max-w-7xl">
         <Button text="call - 987 654 321" extra="hidden md:block" />
         <Logo />
