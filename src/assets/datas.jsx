@@ -5,7 +5,11 @@ import { CiLocationOn } from "react-icons/ci";
 import { FaXTwitter } from "react-icons/fa6";
 import { IoTimerOutline } from "react-icons/io5";
 import { MdOutlineNoteAdd } from "react-icons/md";
-
+// import img1 from "./images/sideimg.png";
+import img1 from "./images/1.jpg";
+import img2 from "./images/2.jpg";
+import img3 from "./images/3.jpg";
+import img4 from "./images/4.jpg";
 export const icons = [
   {
     icon: (
@@ -37,27 +41,27 @@ export const menus = [
   },
   {
     title: "About",
-    path: "/",
+    path: "/about",
   },
   {
     title: "Menu",
-    path: "/",
+    path: "/menu",
   },
   {
     title: "Reservation",
-    path: "/",
+    path: "/reservation",
   },
   {
     title: "Gallery",
-    path: "/",
+    path: "/gallery",
   },
   {
     title: "Blog",
-    path: "/",
+    path: "/blog",
   },
   {
     title: "Contact",
-    path: "/",
+    path: "/contact",
   },
 ];
 
@@ -85,5 +89,110 @@ export const menuIcons = [
       <BiLogoPinterestAlt className="text-white md:text-icon-sm  lg:text-icon-md hidden md:block" />
     ),
     path: "",
+  },
+];
+
+export const menuData = [
+  {
+    title: "Starter",
+    data: [
+      {
+        img: img1,
+        title: "Raw Scallops from Erquy",
+        text: "Candied Jerusalem artichokes, truffle",
+        price: "40",
+      },
+      {
+        img: img1,
+        title: "Spring Roll",
+        text: "Candied Jerusalem artichokes, truffle ",
+        price: "20",
+      },
+      {
+        img: img1,
+        title: "French Onion Soup",
+        text: "Candied Jerusalem artichokes, truffle ",
+        price: "20",
+      },
+      {
+        img: img1,
+        title: "Tomato Brushetta",
+        text: "Candied Jerusalem artichokes, truffle",
+        price: "20",
+      },
+    ],
+  },
+  {
+    title: "Main Dish",
+    data: [
+      {
+        img: img1,
+        title: "Grilled Salmon with Dil Sauce",
+        text: "Candied Jerusalem artichokes, truffle",
+        price: "20",
+      },
+      {
+        img: img1,
+        title: "Roast Beef with Vegetable",
+        text: "Candied Jerusalem artichokes, truffle",
+        price: "20",
+      },
+      {
+        img: img1,
+        title: "Marrkesh Vegetarian Curry",
+        text: "Candied Jerusalem artichokes, truffle",
+        price: "20",
+      },
+      {
+        img: img1,
+        title: "Spicy Vegan Potato Curry",
+        text: "Candied Jerusalem artichokes, truffle",
+        price: "20",
+      },
+    ],
+  },
+  {
+    title: "Desert",
+    data: [
+      {
+        img: img1,
+        title: "Apple Pie with Cream",
+        text: "Candied Jerusalem artichokes, truffle",
+        price: "20",
+      },
+      {
+        img: img1,
+        title: "Lemon Merigue Pie",
+        text: "Candied Jerusalem artichokes, truffle",
+        price: "20",
+      },
+    ],
+  },
+];
+
+export const popularDishes = [
+  {
+    title: "Chicken Manjoori",
+    img: img1,
+    text: "Lorem ipsum dolor sit amet consectetur",
+    price: "15",
+  },
+  {
+    title: "Chicken Manjoori",
+    img: img2,
+    text: "Lorem ipsum dolor sit amet consectetur",
+    price: "15",
+  },
+  {
+    title: "Chicken Manjoori",
+    img: img3,
+    text: "Lorem ipsum dolor sit amet consectetur",
+    price: "15",
+  },
+  {
+    title: "Chicken Manjoori",
+    img: img4,
+    text: "Lorem ipsum dolor sit amet consectetur",
+    price: "15",
   },
 ];

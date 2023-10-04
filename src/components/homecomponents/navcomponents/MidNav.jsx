@@ -1,6 +1,9 @@
 import React from "react";
 import Section from "../../generalcomponents/Section";
 import { menuIcons, menus } from "../../../assets/datas";
+import SocialMediaIcons from "../../generalcomponents/SocialMediaIcons";
+import { NavLink } from "react-router-dom";
+
 const MidNav = () => {
   return (
     <Section
@@ -10,14 +13,25 @@ const MidNav = () => {
       <nav className="flex-1 md:flex justify-between items-center text-ash hidden max-w-7xl">
         <div className="flex gap-6 justify-center items-center text-sm lg:text-md">
           {menus.map((menu, id) => (
-            <div key={id}>{menu.title}</div>
+            <NavLink
+              to={menu.path}
+              key={id}
+              className={({ isActive }) =>
+                isActive
+                  ? "text-yellow font-semibold transition-all duration-300"
+                  : "hover:text-yellow"
+              }
+            >
+              {menu.title}
+            </NavLink>
           ))}
         </div>
-        <div className="flex gap-3 justify-center items-center">
+        <SocialMediaIcons />
+        {/* <div className="flex gap-3 justify-center items-center">
           {menuIcons.map((icon, id) => (
             <a key={id}>{icon.logo}</a>
           ))}
-        </div>
+        </div> */}
       </nav>
     </Section>
   );

@@ -6,7 +6,7 @@ import Section from "../../generalcomponents/Section";
 
 const TopNav = () => {
   return (
-    <Section bg="mid-black">
+    <Section bg="mid-black" py="py-8">
       <div className="flex-1 flex justify-between items-center max-w-7xl">
         <Button text="call - 987 654 321" extra="hidden md:block" />
         <Logo />

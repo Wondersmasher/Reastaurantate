@@ -3,6 +3,7 @@ import Section from "../generalcomponents/Section";
 import story from "../../assets/images/story.png";
 import TitleText from "../generalcomponents/TitleText";
 import { icons } from "../../assets/datas";
+import josephine from "../../assets/images/josefine.png";
 const Story = () => {
   return (
     <Section bg="p">
@@ -27,7 +28,7 @@ const Story = () => {
             alt="story_img"
             className="w-[100%] md:w-[45%] object-cover object-center lg:aspect-2/1 aspect-3/2"
           />
-          <div className="flex-1 flex flex-col justify-center items-center md:border-l-[2px] gap-2 md:px-8">
+          <div className="flex-1 flex flex-col justify-center items-cente md:border-l-[2px] gap-2 md:px-8">
             <TitleText
               title="The Story"
               text={`Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content gfshere', makinlook like readable English. Many desktop publishing packages.`}
@@ -42,6 +43,8 @@ const Story = () => {
                 text={`Lorem Ipsum is that it has a more-or-less normal distribution`}
               />
             </div>
+            <p>JOSEFINE</p>
+            <img src={josephine} alt="Josefine Signature" className="w-24" />
           </div>
         </div>
       </div>
