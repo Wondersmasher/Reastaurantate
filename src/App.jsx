@@ -46,6 +46,7 @@ function App() {
             <Route element={page.page} path={page.path} key={id} />
           ))}
         </Route>
+        <Route path="/*" element={<h1>Error</h1>} />
       </Routes>
     </main>
   );

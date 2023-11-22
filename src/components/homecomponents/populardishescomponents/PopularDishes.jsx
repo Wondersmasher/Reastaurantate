@@ -5,7 +5,7 @@ import Button from "../../generalcomponents/Button";
 import { popularDishes } from "../../../assets/datas";
 const PopularDishes = () => {
   return (
-    <Section bg="w">
+    <Section bg="p">
       <div className="flex-1 flex flex-col gap-2 items-center">
         <p className="text-md border-y-[1px]">MENU</p>
         <p className="text-sub-heading font-cormorant">Popular Dishes</p>

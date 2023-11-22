@@ -2,7 +2,7 @@ import React from "react";
 import Section from "../generalcomponents/Section";
 import Button from "../generalcomponents/Button";
 import heroimg from "../../assets/images/heroimg.png";
-const Hero = () => {
+const HomeHero = () => {
   return (
     <Section bg="mid-black">
       <div className="flex-1 flex flex-col md:flex-row justify-between items-center text-ash max-w-7xl pt-6 gap-8">
@@ -28,4 +28,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default HomeHero;

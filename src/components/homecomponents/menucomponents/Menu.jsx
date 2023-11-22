@@ -1,9 +1,8 @@
 import React from "react";
 import sideimg from "../../../assets/images/sideimg.png";
-import Button from "../../generalcomponents/Button";
-import Section from "../../generalcomponents/Section";
-import Dishes from "./Dishes";
 import { menuData } from "../../../assets/datas";
+import { Button, Section } from "../../generalcomponents";
+import Dishes from "./Dishes";
 const Menu = () => {
   return (
     <Section bg="w">

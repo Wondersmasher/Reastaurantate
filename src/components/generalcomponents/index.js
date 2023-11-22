@@ -1,0 +1,12 @@
+export { default as Button } from "./Button";
+export { default as Copyright } from "./Copyright";
+export { default as Footer } from "./Footer";
+export { default as Img } from "./Img";
+export { default as Josephine } from "./Josephine";
+export { default as Logo } from "./Logo";
+export { default as NavBar } from "./NavBar";
+export { default as PageTitle } from "./PageTitle";
+export { default as Section } from "./Section";
+export { default as SocialMediaIcons } from "./SocialMediaIcons";
+export { default as Testimonial } from "./Testimonial";
+export { default as TitleText } from "./TitleText";

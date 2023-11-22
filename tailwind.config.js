@@ -24,6 +24,10 @@ export default {
         "mid-black": "#292E36",
         "light-pink": "#FFF8F5",
         "pure-white": "#ffffff",
+        "chef-bg": "#A0AEAF",
+      },
+      backgroundImage: {
+        "foods-bg": "url('/foods-bg.jpg')",
       },
       fontSize: {
         copyright: "11px",
@@ -39,6 +43,7 @@ export default {
       aspectRatio: {
         "2/1": "2/1",
         "3/2": "3/2",
+        "3/3": "3/3",
       },
     },
   },

@@ -1,24 +1,25 @@
 import React from "react";
 import {
-  Hero,
+  HomeHero,
   Story,
   Menu,
   PopularDishes,
   WhatWeOffer,
-  Reservation,
 } from "../components/homecomponents";
 import Img from "../components/generalcomponents/Img";
+import Testimonial from "../components/generalcomponents/Testimonial";
 
 const Home = () => {
   return (
     <>
-      <Hero />
+      <HomeHero />
       <Story />
       <Menu />
-      <Img />
+      {/* <Img /> */}
       <PopularDishes />
+      <Testimonial /> <Img />
       <WhatWeOffer />
-      <Reservation />
+      {/* <Reservation /> */}
     </>
   );
 };

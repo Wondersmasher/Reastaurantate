@@ -1,6 +1,5 @@
 import React from "react";
 import Section from "./Section";
-
 const Copyright = () => {
   return (
     <Section py="py-0">

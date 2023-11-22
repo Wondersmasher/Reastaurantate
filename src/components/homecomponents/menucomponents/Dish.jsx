@@ -6,7 +6,7 @@ const Dish = ({ menu }) => {
       <img
         src={menu.img}
         alt={menu.title}
-        className="h-12 w-12 rounded-md object-center"
+        className="h-12 w-12 rounded-full object-cover object-center"
       />
       <div className="flex flex-col flex-1">
         <p className="font-cormorant font-bold text-[20px]">{menu.title}</p>

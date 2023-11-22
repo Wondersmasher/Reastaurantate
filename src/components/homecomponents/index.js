@@ -1,4 +1,4 @@
-export { default as Hero } from "./Hero";
+export { default as HomeHero } from "./HomeHero";
 export { default as Story } from "./Story";
 export { default as Menu } from "./menucomponents/Menu";
 export { default as PopularDishes } from "./populardishescomponents/PopularDishes";

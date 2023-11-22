@@ -4,6 +4,7 @@ import story from "../../assets/images/story.png";
 import TitleText from "../generalcomponents/TitleText";
 import { icons } from "../../assets/datas";
 import josephine from "../../assets/images/josefine.png";
+import Josephine from "../generalcomponents/Josephine";
 const Story = () => {
   return (
     <Section bg="p">
@@ -43,8 +44,7 @@ const Story = () => {
                 text={`Lorem Ipsum is that it has a more-or-less normal distribution`}
               />
             </div>
-            <p>JOSEFINE</p>
-            <img src={josephine} alt="Josefine Signature" className="w-24" />
+            <Josephine/>
           </div>
         </div>
       </div>

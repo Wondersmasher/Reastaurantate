@@ -12,8 +12,8 @@ const Footer = () => {
           <Logo />
           <SocialMediaIcons />
         </div>
-        <div className="flex flex-wrap justify-between gap-8">
-          <div className="flex flex-col gap-2 justify-start">
+        <div className="flex flex-wrap gap-8">
+          <div className="flex flex-col gap-2 justify-start ">
             <p className="text-md border-y-[1px] border-y-yellow w-fit">
               CONTACT
             </p>
@@ -23,14 +23,21 @@ const Footer = () => {
             </p>
             <p className="text-sm text-yellow">benoit@mail.com</p>
           </div>
-          <div className=" flex flex-col gap-2 justify-start items-center flex-1">
+          <div className=" flex flex-col gap-4 flex-1">
             <p className="text-sm text-center">
               Join our mailing list for updates, <br />
               Get news & offers events.
             </p>
             <div className="flex justify-center">
-              <input type="text" name="" id="" className="" />
-              <Button text="Subscribe" />
+              <input
+                type="text"
+                name=""
+                id=""
+                className="border-[1px] border-ash bg-inherit w-[75%]"
+              />
+              <button className="border-[1px] text-black bg-ash border-ash px-3 py-2 text-sm lg:text-md hover:bg-transparent hover:text-white transition-colors duration-700">
+                Subscribe
+              </button>
             </div>
           </div>
           <div className="flex flex-col gap-2 justify-start">

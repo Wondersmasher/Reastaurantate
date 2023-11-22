@@ -10,6 +10,32 @@ import img1 from "./images/1.jpg";
 import img2 from "./images/2.jpg";
 import img3 from "./images/3.jpg";
 import img4 from "./images/4.jpg";
+import avroko from "./images/avroko.png";
+import dan from "./images/dan.png";
+import diane from "./images/diane.png";
+import evan from "./images/evan.png";
+export const ourChef = [
+  {
+    name: "Avroko",
+    position: "Master Chef",
+    img: avroko,
+  },
+  {
+    name: "Evan Matthew",
+    position: "Master Chef",
+    img: evan,
+  },
+  {
+    name: "Dan Rofalin",
+    position: "Assistant Chef",
+    img: dan,
+  },
+  {
+    name: "Diane Clarkson",
+    position: "Master Chef",
+    img: diane,
+  },
+];
 export const icons = [
   {
     icon: (
@@ -97,7 +123,7 @@ export const menuData = [
     title: "Starter",
     data: [
       {
-        img: img1,
+        img: avroko,
         title: "Raw Scallops from Erquy",
         text: "Candied Jerusalem artichokes, truffle",
         price: "40",

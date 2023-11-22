@@ -1,14 +1,14 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-import Footer from "../components/generalcomponents/Footer";
-import NavBar from "../components/generalcomponents/NavBar";
-import Copyright from "../components/generalcomponents/Copyright";
+import { Reservation } from "../components/homecomponents";
+import { Copyright, Footer, NavBar } from "../components/generalcomponents";
 
 const SharedLayout = () => {
   return (
     <>
       <NavBar />
       <Outlet />
+      <Reservation />
       <Footer />
       <Copyright />
     </>
