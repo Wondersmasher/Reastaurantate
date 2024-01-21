@@ -15,7 +15,7 @@ const Chefs = () => {
         <div className="flex gap-4 flex-wrap lg:flex-nowrap justify-">
           {ourChef.map((chef, id) => {
             return (
-              <div className="flex flex-col justify-center items-center flex-auto">
+              <div key={id} className="flex flex-col justify-center items-center flex-auto">
                 <img
                   src={chef.img}
                   alt={chef.name}
