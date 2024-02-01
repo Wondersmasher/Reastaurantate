@@ -38,15 +38,15 @@ const pages = [
 ];
 function App() {
   return (
-    <main className="font-josefin">
+    <main className='font-josefin'>
       <Routes>
-        <Route element={<SharedLayout />} path="/">
+        <Route element={<SharedLayout />} path='/'>
           <Route element={<Home />} index />
           {pages.map((page, id) => (
             <Route element={page.page} path={page.path} key={id} />
           ))}
         </Route>
-        <Route path="/*" element={<h1>Error</h1>} />
+        <Route path='/*' element={<h1>Error</h1>} />
       </Routes>
     </main>
   );
